@@ -1,0 +1,3 @@
+name = "YOUR_SCRIPT_NAME"
+account_id= "YOUR_ACOUNT_ID"
+type = "webpack"

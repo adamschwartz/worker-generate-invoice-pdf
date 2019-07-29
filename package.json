@@ -1,0 +1,9 @@
+{
+  "name": "worker-generate-invoice-pdf",
+  "private": "true",
+  "version": "0.0.1",
+  "main": "worker.js",
+  "dependencies": {
+    "jspdf": "1.5.3"
+  }
+}
