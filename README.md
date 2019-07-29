@@ -21,6 +21,16 @@ https://generate.invoice.workers.dev/
 
 You can also generate a PDF using a UI by visiting [lazy.invoice.workers.dev](https://lazy.invoice.workers.dev), for which this backend Cloudflare Worker script was built.
 
+## Customizing this project
+
+This project uses the [Workers CLI](https://workers.cloudflare.com/docs/quickstart/cli-setup/) in order to build and publish your script to Cloudflare Workers.
+
+To customize this project for your own purposes, follow these steps:
+
+1) Install the [Workers CLI](https://workers.cloudflare.com/docs/quickstart/cli-setup/).
+2) Clone the repo into a new directory.
+3) Follow the [Workers configuration instructions](https://workers.cloudflare.com/docs/quickstart/configuring-and-publishing/) to configure the CLI. Essentially this amounts to running one Workers CLI command and then editing the `wrangler.toml` file in this project with your Cloudflare Account ID and the secondary subdomain of your choosing for deployment.
+
 ## License
 
 MIT
